@@ -377,7 +377,7 @@ def get_app():
         
         return('{"Status" : 1}')
 
-    @BackEndApp.route('/predict', methods=['GET'])
+    @BackEndApp.route('xxxxxxx', methods=['GET'])
     def predictV2():
         def partition(start, end):
             pivot = y['data'][0][start]
